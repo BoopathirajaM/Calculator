@@ -77,7 +77,10 @@ footer{
     text-decoration: none;
     margin: 0 10px;
 }
-  @media (max-width: 400px) {
+  @media (max-width: 620px) {
+    body{
+        margin-top:10rem;
+    }
     .calculator {
         width: 100%;
         padding: 20px;
@@ -94,6 +97,9 @@ footer{
     .btn {
         width: 40px;
         height: 40px;
+    }
+    footer{
+        margin-top:10rem;
     }
     
   }
